@@ -1,6 +1,8 @@
 Overview
 
-  - This is to build a custom php+ssh docker image to be used in our deployment pipeline.
+  - This is to build a custom php docker image with additional utilties:
+    * ssh
+    * composer
 
 Dockerhub
 
