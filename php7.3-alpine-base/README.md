@@ -10,10 +10,10 @@ Dockerhub
 
 How to try it out?
 
-  - docker run -it --rm etechfocus/php-alpine:{VERSION} php --version
+  - docker run -it --rm etechfocus/php7.3-alpine-base:{VERSION} php --version
 
 How to update the image?
 
   - docker login --username=etechfocus --password={PASSWORD}
-  - docker build -t etechfocus/php-alpine:{VERSION} .
-  - docker push etechfocus/php-alpine:{VERSION}
+  - docker build -t etechfocus/php7.3-alpine-base:{VERSION} .
+  - docker push etechfocus/php7.3-alpine-base:{VERSION}
